@@ -1,0 +1,765 @@
+﻿/* This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com */
+
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=d25ce985-8b52-410a-ada1-1313b72dbbd5");
+
+@font-face {
+    font-family: "Helvetica Neue LT W01_37 Th Cn";
+    src: url("fonts/8912804c-dafb-4d04-82a4-e572d4782c6a.eot?#iefix");
+    src: url("fonts/8912804c-dafb-4d04-82a4-e572d4782c6a.eot?#iefix") format("eot"),url("fonts/6d5ceb9f-137b-47e3-8438-465de99acf5a.woff2") format("woff2"),url("fonts/627c276f-a6d6-4f1e-952a-460f1863ac23.woff") format("woff"),url("fonts/0bfc2d60-7148-448b-9365-de1d5b911290.ttf") format("truetype"),url("fonts/8167b508-e8d7-4e10-9970-02abee02e754.svg#8167b508-e8d7-4e10-9970-02abee02e754") format("svg");
+}
+
+@font-face {
+    font-family: "Helvetica Neue LT W01_47 Lt Cn";
+    src: url("fonts/ee259578-3cae-4dd8-a23a-297d352ec2dc.eot?#iefix");
+    src: url("fonts/ee259578-3cae-4dd8-a23a-297d352ec2dc.eot?#iefix") format("eot"),url("fonts/244ff804-5735-41ed-92a1-ce5438185e9c.woff2") format("woff2"),url("fonts/9cd26200-0d62-40ef-94b8-46fd1d8b255f.woff") format("woff"),url("fonts/7b72d33f-8b87-4c48-b397-42d28164d598.ttf") format("truetype"),url("fonts/07dba647-d830-4ba8-8b84-1e4c9858f3d3.svg#07dba647-d830-4ba8-8b84-1e4c9858f3d3") format("svg");
+}
+
+@font-face {
+    font-family: "Helvetica Neue LT W01_57 Cond";
+    src: url("fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix");
+    src: url("fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix") format("eot"),url("fonts/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"),url("fonts/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff"),url("fonts/a621a6bf-fa40-4115-9f42-6ffb55c017e2.ttf") format("truetype"),url("fonts/436f9358-58a7-4f85-bdef-f4cd10831df6.svg#436f9358-58a7-4f85-bdef-f4cd10831df6") format("svg");
+}
+
+
+/************Reset**************/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+html, body, div, object, iframe, fieldset, footer, main, header, menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header, main, footer, nav, section, article, hgroup, figure {
+    display: block;
+}
+/************End Reset**************/
+
+
+html, body {
+    background: #bfcce2;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #0033cc;
+    outline: none;
+    text-decoration: none;
+}
+
+    a:hover, a:active {
+        text-decoration: underline;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+form {
+    height: 100%;
+    margin: 0;
+}
+
+input, select, textarea, button {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Helvetica Neue LT W01_47 Lt Cn", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 2.05em;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#panel h1 {
+    line-height: 1.05em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+}
+
+h2 {
+    font-family: "Helvetica Neue LT W01_37 Th Cn", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #555555;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#panel h2 {
+    /*padding-top: 0.3em;*/
+    text-align: center;
+}
+
+#outage-ctnr h2 {
+    margin-bottom: 0.15em;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: "Helvetica Neue LT W01_57 Cond", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #00338d;
+    font-size: 1.5em;
+    line-height: 1.1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.anncmt-ctnr h3 {
+    color: #749e0d;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-family: "Helvetica Neue LT W01_47 Lt Cn", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.banner-instance {
+    width: 100%;
+    padding: 0.4em 1.5em 0.3em 1.5em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.banner-instance-dev {
+    background-color: #339900;
+}
+
+.banner-instance-test {
+    background-color: #ff9900;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+.ctnr-shadow {
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.3);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    background-color: #383f46;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+
+.jlogo-ctnr {
+    padding: 1.05em 1em 0.8em 1em;
+    float: left;
+}
+
+    .jlogo-ctnr img {
+        width: 70px;
+    }
+
+.vendorlogo-ctnr {
+    padding: 0.8em 0 0.5em 0;
+    float: left;
+}
+
+    .vendorlogo-ctnr img {
+        width: 100px;
+    }
+
+main {
+    clear: both;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin-top: 49px;
+}
+
+#alert {
+    width: 100%;
+    padding: 0.9em 1.3em 0.8em 1.3em;
+    background-color: #ffee7f;
+    border-bottom: 3px solid #ffde00;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#panel {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.18);
+}
+
+.panel-hd {
+    width: 100%;
+    background-color: #00338d;
+    text-align: center;
+    padding: 1.3em 1em 0.6em 1em;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.17);
+}
+
+.panel-body {
+    background-color: rgba(255,255,255,0.4);
+    padding-bottom: 1.6em;
+    padding-top: 1.6em;
+}
+
+#outage-ctnr {
+    width: 93%;
+    background-color: #ffee7f;
+    text-align: center;
+    border: 3px solid #ffde00;
+    border-radius: 6px;
+    padding: 1em 1.1em;
+    margin: 0 auto 0 auto;
+}
+
+.outage-hd {
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.outage-times {
+    font-size: 0.95em;
+    font-weight: normal;
+    line-height: 1.4em;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
+    border-top: 1px solid #ffde00;
+    border-bottom: 1px solid #ffde00;
+}
+
+.outage-msg {
+    width: 100%;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.si-opt-ctnr {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .si-opt-ctnr > div {
+        width: 78%;
+        font-size: 0.9em;
+        line-height: 1.3em;
+        text-align: center;
+        margin: 0.7em auto 1.1em auto;
+    }
+
+        .si-opt-ctnr > div.si-opt a, .si-opt-ctnr > div.si-opt a:link, .si-opt-ctnr > div.si-opt a:visited, .si-opt-ctnr > div.si-opt a:hover, .si-opt-ctnr > div.si-opt a:active {
+            display: block;
+            background-color: #ffffff;
+            color: #00338d;
+            text-decoration: none;
+            border: 2px solid #99add1;
+            border-radius: 22px;
+            padding: 10px 12px 10px 12px;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+        }
+
+            .si-opt-ctnr > div.si-opt a:hover {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#738fc0+0,00338d+100 */
+                background: #738fc0; /* Old browsers */
+                background: -moz-linear-gradient(top, #738fc0 0%, #00338d 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, #738fc0 0%,#00338d 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, #738fc0 0%,#00338d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#738fc0', endColorstr='#00338d',GradientType=0 ); /* IE6-9 */
+                color: #fff;
+            }
+
+        .si-opt-ctnr > div.si-excep {
+            width: 90%;
+            line-height: 1.2em;
+            margin-bottom: 0;
+            margin: 1em auto 1.1em auto;
+        }
+
+        .si-opt-ctnr > div div {
+            font-size: 1.05em;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.15em;
+            margin-bottom: 0.2em;
+        }
+
+        .si-opt-ctnr > div.si-excep div {
+            font-size: 1em;
+            margin-bottom: 0.3em;
+        }
+
+.help-ctnr {
+    clear: both;
+    width: 90%;
+    margin: 1.4em auto 0 auto;
+    padding-top: 1.2em;
+    border-top: 1px solid #99add1;
+    text-align: center;
+}
+
+    .help-ctnr div {
+        font-family: "Helvetica Neue LT W01_37 Th Cn", Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        line-height: 1.05em;
+        color: #555555;
+        letter-spacing: 0.01em;
+        margin-bottom: 0.25em;
+    }
+
+    .help-ctnr a, .help-ctnr a:link, .help-ctnr a:visited, .help-ctnr a:hover, .help-ctnr a:active {
+        display: inline-block;
+        width: 230px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#597ab5+25,99add1+100 */
+        background: #6685bb; /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(89,122,181,1) 25%, rgba(153,173,209,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(89,122,181,1) 25%,rgba(153,173,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(89,122,181,1) 25%,rgba(153,173,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#597ab5', endColorstr='#99add1',GradientType=0 ); /* IE6-9 */
+        font-size: 1.05em;
+        color: #ffffff;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid #ffffff;
+        border-radius: 22px;
+        padding: 11px 18px;
+        cursor: pointer;
+        text-shadow: 0px 1px 1px rgba(0,0,0,0.37);
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    }
+
+        .help-ctnr a span {
+            font-weight: bold;
+        }
+
+.additional-links {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.anncmt-ctnr {
+    clear: both;
+    width: 85%;
+    background-color: #e2efce;
+    padding: 0.6em 1em 0.8em 1em;
+    margin: 1.4em auto 0 auto;
+    border: 1px solid #b6d071;
+    /*border-radius: 6px;*/
+}
+
+.anncmt {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+    .anncmt a, .anncmt a:link, .anncmt a:visited, .anncmt a:hover, .anncmt a:active {
+        display: inline;
+        background-color: rgba(255,255,255,0.75);
+        padding: 1px 3px 2px 3px;
+        border-radius: 3px;
+        text-decoration: none; /*underline;*/
+    }
+
+    .anncmt p {
+        margin-bottom: 0.8em;
+    }
+
+        .anncmt p:last-child {
+            margin-bottom: 0;
+        }
+
+        .anncmt p.no-anncmt {
+            text-align: center;
+        }
+
+    .anncmt ul, .anncmt ol {
+        margin-top: 0.7em;
+        margin-bottom: 1em;
+    }
+
+        .anncmt ul li, .anncmt ol li {
+            margin-top: 0.5em;
+        }
+
+    .anncmt .note {
+        border-top: 1px solid #aaaaaa;
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+
+footer {
+    clear: both;
+    width: 100%;
+    color: #cccccc;
+    font-size: 0.8em;
+    letter-spacing: 0.02em;
+    padding: 0.8em 1.8em;
+    background-color: #383f46;
+    text-align: center;
+}
+
+    footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
+        color: #ffffff;
+    }
+
+.copyright {
+    margin-bottom: 0.4em;
+}
+
+
+/* ---------- Modular Styles ---------- */
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* ---------- Media Queries ---------- */
+/* To prevent font scaling in landscape on small devices */
+@media only screen and (max-device-width: 736px) and (orientation: landscape) {
+    body, html {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .si-opt-ctnr > div.si-excep br, .help-ctnr > div > br {
+        display: none;
+    }
+
+    .help-ctnr div {
+        font-size: 2.05em;
+    }
+
+    .help-ctnr a, .help-ctnr a:link, .help-ctnr a:visited, .help-ctnr a:hover, .help-ctnr a:active {
+        width: 230px;
+        font-size: 1.05em;
+    }
+}
+
+@media all and (min-width: 440px) {
+    h2 {
+        font-size: 2.9em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    .jlogo-ctnr {
+        padding: 1.35em 1.35em 1.15em 1.4em;
+    }
+
+        .jlogo-ctnr img {
+            width: 90px;
+        }
+
+    .vendorlogo-ctnr {
+        padding: 1.19em 1.35em 0.85em 0;
+    }
+
+        .vendorlogo-ctnr img {
+            width: 120px;
+        }
+
+    main {
+        margin-top: 60px;
+    }
+
+    .panel-hd {
+        padding: 1.5em 1em 0.6em 1em;
+    }
+
+    .si-opt-ctnr > div {
+        width: 70%;
+        font-size: 0.95em;
+    }
+
+        .si-opt-ctnr > div a, .si-opt-ctnr > div a:link, .si-opt-ctnr > div a:visited, .si-opt-ctnr > div a:hover, .si-opt-ctnr > div a:active {
+            padding: 11px 13px 11px 13px;
+        }
+
+        .si-opt-ctnr > div div {
+            line-height: 1.3em;
+            margin-bottom: 0.1em;
+        }
+}
+
+@media all and (min-width: 540px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    /*#panel h2 {
+            padding-top: 0.4em;
+        }*/
+    h3 {
+        font-size: 1.7em;
+    }
+
+    .panel-hd {
+        padding: 1.8em 1em 0.6em 1em;
+    }
+
+    #outage-ctnr {
+        padding: 1.1em 1.2em;
+    }
+
+    .outage-hd {
+        font-size: 1.6em;
+        line-height: 1.4em;
+        margin-bottom: 0.7em;
+    }
+
+    .outage-times {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+    }
+
+    .outage-msg {
+        font-size: 1em;
+    }
+
+    .si-opt-ctnr > div {
+        width: 60%;
+    }
+
+        .si-opt-ctnr > div.si-opt {
+            display: inline-block;
+            width: 44%;
+            margin-right: 0.7em;
+            margin-left: 0.7em;
+            vertical-align: middle;
+        }
+
+        .si-opt-ctnr > div.si-excep {
+            margin: 0 auto 1.1em auto;
+        }
+
+            .si-opt-ctnr > div.si-excep div {
+                margin-bottom: 0.2em;
+            }
+
+    footer {
+        text-align: left;
+    }
+
+    .copyright {
+        float: right;
+        text-align: right;
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width: 700px) {
+    h1 {
+        font-size: 2.55em;
+    }
+
+    .wrapper {
+        padding: 0 2em 2em 2em;
+    }
+
+    header {
+        position: relative;
+        z-index: 2000;
+    }
+
+    .jlogo-ctnr {
+        padding: 1.55em 1.6em 1.4em 1.6em;
+    }
+
+        .jlogo-ctnr img {
+            width: 105px;
+        }
+
+    .vendorlogo-ctnr {
+        padding: 1.4em 1.5em 1.15em 0;
+    }
+
+        .vendorlogo-ctnr img {
+            width: 130px;
+        }
+
+    main {
+        background-color: #fff;
+        background-image: url("bg_abstract_01b.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+        opacity: 0.9;
+    }
+
+    #panel {
+        width: 520px;
+        box-shadow: 0px 0px 18px rgba(0,0,0,0.12);
+    }
+
+    .panel-hd {
+        padding: 2.3em 1em 0.7em 1em;
+    }
+
+    .panel-body {
+        background-color: rgba(255,255,255,0.8);
+        padding-bottom: 1.7em;
+        padding-top: 1.7em;
+    }
+
+    .anncmt-ctnr {
+        background-color: #eaf1d6;
+    }
+}
+
+@media all and (min-width: 880px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 3.2em;
+    }
+    /*#panel h2 {
+                padding-top: 0.45em;
+            }*/
+    .wrapper {
+        padding: 0 3em 3em 3em;
+    }
+
+    .jlogo-ctnr {
+        padding: 1.8em 1.9em 1.7em 1.9em; /*1.6em 1.9em 1.45em 1.9em*/
+    }
+
+        .jlogo-ctnr img {
+            width: 140px;
+        }
+
+    .vendorlogo-ctnr {
+        padding: 1.7em 1.9em 1.4em 0; /*1.65em 1.9em 1.45em 0*/
+    }
+
+        .vendorlogo-ctnr img {
+            width: 165px;
+        }
+
+    #panel {
+        width: 600px;
+    }
+
+    .panel-hd {
+        padding: 2.3em 1em 0.8em 1em;
+    }
+
+    .si-opt-ctnr > div {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+        .si-opt-ctnr > div a, .si-opt-ctnr > div a:link, .si-opt-ctnr > div a:visited, .si-opt-ctnr > div a:hover, .si-opt-ctnr > div a:active {
+            padding: 11px 15px 11px 15px;
+        }
+
+        .si-opt-ctnr > div.si-opt {
+            width: 43%;
+        }
+
+    .help-ctnr div {
+        font-size: 2.25em;
+    }
+
+    .help-ctnr a, .help-ctnr a:link, .help-ctnr a:visited, .help-ctnr a:hover, .help-ctnr a:active {
+        width: 260px;
+        font-size: 0.9em;
+    }
+
+    footer {
+        padding: 1em 1.8em;
+    }
+}
+
+@media all and (min-width: 1114px) {
+    .vendorlogo-ctnr {
+        float: none;
+        position: absolute;
+        right: 0;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}
